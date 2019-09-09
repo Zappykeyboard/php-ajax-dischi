@@ -1,4 +1,5 @@
 <?php
+  header('Content-type: application/json');
 
   $albums = [
     [
@@ -36,6 +37,7 @@
       'author' => 'Gorillaz',
       'image' => 'img/album_7.jpg'
     ]
-  ]
+    ];
 
+  echo json_encode($albums);
 ?>
