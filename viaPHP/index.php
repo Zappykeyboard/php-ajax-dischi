@@ -20,6 +20,8 @@
     <script src="script.js" charset="utf-8"></script>
 
     <title>php-ajax-dischi</title>
+
+    
   </head>
   <body>
  
