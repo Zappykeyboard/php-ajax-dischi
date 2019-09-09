@@ -21,9 +21,34 @@
 
     <title>php-ajax-dischi</title>
 
-    
+    <?php 
+      include 'api.php';
+
+      function printAlbum($album){
+        $image = $album['image'];
+        $name = $album['name'];
+        $author = $album['author'];
+        echo "<div class=album> 
+        <img src='{$image}'>
+        <p class='album-name'> {$name}</p>
+        <p class='album-author'> {$author}</p> 
+        </div>" ;
+      }
+
+
+    ?>
   </head>
   <body>
- 
+  <header>
+      <img src="https://developer.spotify.com/assets/branding-guidelines/icon3@2x.png" alt="" srcset="">
+  </header>
+  <div class="container">
+      <?php
+        foreach($albums as $album){
+          printAlbum($album);
+        }
+      ?>
+  
+  </div>
   </body>
 </html>
