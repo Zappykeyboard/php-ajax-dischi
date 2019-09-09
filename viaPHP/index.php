@@ -17,8 +17,8 @@
     <!-- CSS: MY STYLE -->
     <link rel="stylesheet" href="style.css">
     <!-- JS: MY SCRIPT -->
-    <script src="script.js" charset="utf-8"></script>
-
+   <!--  <script src="script.js" charset="utf-8"></script>
+ -->
     <title>php-ajax-dischi</title>
 
     <?php 
