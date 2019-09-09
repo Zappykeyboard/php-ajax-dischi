@@ -14,9 +14,9 @@
     <!-- TEMPLATE: Albums -->
     <script id="item-template" type="text/x-handlebars-template">
       <div class=album> 
-        <img src='{image}'>
-        <p class='album-name'> {name}</p>
-        <p class='album-author'> {author}</p> 
+        <img src='{{image}}'>
+        <p class='album-name'> {{name}}</p>
+        <p class='album-author'> {{author}}</p> 
       </div>
     </script>
 
@@ -28,6 +28,12 @@
     <title>php-ajax-dischi</title>
   </head>
   <body>
- 
+    <header>
+        <img src="https://developer.spotify.com/assets/branding-guidelines/icon3@2x.png" alt="" srcset="">
+    </header>
+
+    <div class="container">
+
+    </div>
   </body>
 </html>
