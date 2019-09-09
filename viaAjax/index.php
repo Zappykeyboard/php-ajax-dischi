@@ -13,6 +13,11 @@
     
     <!-- TEMPLATE: Albums -->
     <script id="item-template" type="text/x-handlebars-template">
+      <div class=album> 
+        <img src='{image}'>
+        <p class='album-name'> {name}</p>
+        <p class='album-author'> {author}</p> 
+      </div>
     </script>
 
     <!-- CSS: MY STYLE -->
