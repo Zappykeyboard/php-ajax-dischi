@@ -22,10 +22,12 @@
         $image = $album['image'];
         $name = $album['name'];
         $author = $album['author'];
+        $release = $album['release_date'];
         echo "<div class=album> 
         <img src='{$image}'>
         <p class='album-name'> {$name}</p>
-        <p class='album-author'> {$author}</p> 
+        <p class='album-author'> {$author}</p>
+        <p class='album-release'> {$release}</p>  
         </div>" ;
       }
 
