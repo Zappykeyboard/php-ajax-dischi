@@ -16,7 +16,8 @@
       <div class=album> 
         <img src='{{image}}'>
         <p class='album-name'> {{name}}</p>
-        <p class='album-author'> {{author}}</p> 
+        <p class='album-author'> {{author}}</p>
+        <p class='album-release'> {{release}}</p>
       </div>
     </script>
 

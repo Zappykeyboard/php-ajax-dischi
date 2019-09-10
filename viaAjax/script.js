@@ -32,7 +32,8 @@ function printAlbums(albums){
     var context = {
       name: album.name,
       author: album.author,
-      image: album.image
+      image: album.image,
+      release: album.release_date
     };
 
     var html = template(context);
